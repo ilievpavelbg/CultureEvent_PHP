@@ -1,0 +1,101 @@
+p, h2, h3, h4 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:lighter;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.custom-title {
+    color:rgb(27, 61, 230); 
+}
+
+.custom-title-red {
+    color:red; 
+}
+
+.custom-subject {
+    color: rgb(27, 61, 230);
+    font-size: 1.3rem;
+}
+.wide-blue-line {
+    position: absolute;
+    left: -1; 
+    bottom: -1; 
+    width: 100%; 
+    z-index: -1; 
+}
+
+.header-image {
+    position: relative;
+    width: 100%;
+    max-height: 250px; 
+    overflow: hidden;
+}
+
+.header-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50px;
+    left: 100px; 
+    padding: 10px;
+}
+
+.text-overlay-center {
+    position: absolute;
+    top: 20px; 
+    left: 600px; 
+    padding: 10px;
+    width: 350px;
+    font-size:smaller;
+}
+
+.byTicket-overlay {
+    position: absolute;
+    top: 340px; 
+    left: 630px; 
+    padding: 10px;
+    width: 50%;
+    border-radius: 5%;
+}
+
+.note-paymentForm {
+    font-size: smaller;
+    color:black;
+    font-weight: 400;
+    
+}
+
+.vl {
+    border-left: 2px solid blue;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  .small-title {
+    color: #0275d8;
+    font-weight: 400;
+  }
+
+  .price-title {
+    font-weight: bold;
+     font-size: small;
+      color: #0275d8;
+  }
+
+  .price-description {
+    font-size:smaller;
+  }
+
+  .price-premium {
+    font-weight: lighter;
+    font-size: x-small;
+    color: #0275d8;
+  }
